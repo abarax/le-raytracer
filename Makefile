@@ -4,7 +4,9 @@ build:
 	clang++ -o main.out main.cpp -Wc++11-extensions -g -std=c++11
 
 out:
-	./main > image.ppm
+	./main.out > image.ppm
 
 clean:
-	rm -f main
+	rm -f main.out.dSYM
+	rm main.out
+	rm image.ppm
