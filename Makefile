@@ -7,6 +7,6 @@ out:
 	./main.out > image.ppm
 
 clean:
-	rm -f main.out.dSYM
+	rm -rf main.out.dSYM
 	rm main.out
 	rm image.ppm
