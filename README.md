@@ -1,3 +1,3 @@
 # le-raytracer
 
-Working project basde upon the book: https://raytracing.github.io/
+Working project based upon the book: https://raytracing.github.io/
